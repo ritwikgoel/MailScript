@@ -9,7 +9,8 @@ import time
 from selenium.webdriver.common.keys import Keys
 PATH='/home/tangobeer/Documents/chromedriver'
 
-
+mailid=input('Enter mail id')
+mail_pass=input('ENter password')
 
 
 print("Enter the message to be bulk sent")
@@ -33,9 +34,9 @@ driver=webdriver.Chrome(PATH)
 driver.get('https://mail.protonmail.com/inbox?welcome=true')
 driver.implicitly_wait(5)
 txt_box_in_mail=driver.find_element_by_id("username")
-txt_box_in_mail.send_keys("ritwikgoel@protonmail.com")
+txt_box_in_mail.send_keys(mailid)
 pass_in_mail=driver.find_element_by_id("password")
-pass_in_mail.send_keys('ritwikgoel')
+pass_in_mail.send_keys(mail_pass)
 driver.maximize_window()
 pass_in_mail.send_keys(Keys.RETURN)
 
