@@ -1,6 +1,6 @@
 # MAILSCRIPT
 
-A super basic mail sending script to send mails over <a href='protonmail.com'>PROTONMAIL</a> made with selenium
+A super basic mail sending script to send mails over <a href='https://protonmail.com/'>PROTONMAIL</a> made with selenium
 
 ## Installation
 
