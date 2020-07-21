@@ -1,6 +1,6 @@
 # MAILSCRIPT
 
-A super basic mail sending script to send over PROTONMAIL made with selenium
+A super basic mail sending script to send mails over PROTONMAIL made with selenium
 
 ## Installation
 
